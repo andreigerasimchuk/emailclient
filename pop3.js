@@ -30,7 +30,7 @@ class Pop3 {
   }
 
   getFolders() {
-    return Promise.resolve([]);
+    return Promise.resolve(['INBOX']);
   }
 
   openFolder(folder) {
